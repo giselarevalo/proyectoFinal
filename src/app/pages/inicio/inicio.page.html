@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="card-container">
+    <ion-card>
+      <img src="/assets/images/ionic1.jpg" alt="..." style="width: 100%;">
+      <ion-card-content>
+        <ion-card-title>Card title</ion-card-title>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <ion-button expand="full" color="primary">Ver más</ion-button>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <img src="/assets/images/ionic2.jpg" alt="..." style="width: 100%;">
+      <ion-card-content>
+        <ion-card-title>Card title</ion-card-title>
+        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <ion-button expand="full" color="primary">Ver más</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  
+</ion-content>

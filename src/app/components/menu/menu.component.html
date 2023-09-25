@@ -1,0 +1,53 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-list>
+      <ion-menu-toggle>
+        <ion-item routerLink="/perro">
+          <ion-icon  slot="start" color="primary" name="accessibility-outline" ></ion-icon>
+          Perro
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/armadura">
+          <ion-icon  slot="start" color="primary" name="shield-checkmark-outline"></ion-icon>
+          Armadura
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/computadora">
+          <ion-icon  slot="start" color="primary" name="laptop-outline"></ion-icon>
+          Computadora
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/piedra">
+          <ion-icon  slot="start" color="primary"  slot="start" name="diamond-outline" color="primary"></ion-icon>
+          Piedra
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/pizarron">
+          <ion-icon  slot="start" color="primary" name="calendar-clear-outline"></ion-icon>
+          Pizarron
+        </ion-item>
+      </ion-menu-toggle>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
+</div>
