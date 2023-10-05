@@ -35,6 +35,10 @@ const routes: Routes = [
   {
     path: 'computadora',
     loadChildren: () => import('./pages/computadora/computadora.module').then( m => m.ComputadoraPageModule)
+  },
+  {
+    path: 'directivas',
+    loadChildren: () => import('./pages/directivas/directivas.module').then( m => m.DirectivasPageModule)
   }
   
 ];

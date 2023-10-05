@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Directivas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <br>
+  <ion-title>
+    <h5>ngFor : Listado de ciudades</h5>
+  </ion-title>
+  <ion-list *ngFor="let city of cities">
+    <ion-item [ngClass]="'blue'">
+      {{ city }}
+    </ion-item>
+  </ion-list>
+  <br>
+  <ion-title>
+    <h5>ngIf : Aparece con el nombre </h5>
+  </ion-title>
+  <ion-item>
+    <p *ngIf="name">Tu nombre es : {{name}}</p>
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input type="text" [(ngModel)]="name"></ion-input>
+  </ion-item>
+</ion-content>
