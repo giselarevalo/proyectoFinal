@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerroPage implements OnInit {
 
+  pageName = 'Perro';
+  HeaderColor: string = 'secondary';
+
   constructor() { }
 
   ngOnInit() {

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PizarronPage implements OnInit {
 
+  pageName = 'Pizarron';
   constructor() { }
 
   ngOnInit() {
